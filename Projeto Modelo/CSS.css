@@ -1,0 +1,52 @@
+.Azul{
+	color: blue;
+}
+
+.Fundo{
+	background-image: url('Imagens/fundo.png');
+}
+
+.Fundo2{
+	background-image: url('Imagens/fundo2.png');
+}
+
+.Fundo3{
+	background-color: white;
+}
+
+.Center{
+	text-align: center;
+}
+
+.Borda{
+	border: 10px inset #F2C59F;
+}
+
+.Tamanho{
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+#home .Fundo2 .home a{
+	color: red;
+	text-decoration: underline;
+}
+
+#home .Fundo2 .biografia a{
+	color: red;
+	text-decoration: underline;
+}
+
+#home .Fundo2 .campanhas-publicitárias a{
+	color: red;
+	text-decoration: underline;
+}
+
+#home .Fundo2 .contato a{
+	color: red;
+	text-decoration: underline;
+}
