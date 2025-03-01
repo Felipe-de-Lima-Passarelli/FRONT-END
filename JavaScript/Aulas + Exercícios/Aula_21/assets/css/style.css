@@ -26,6 +26,11 @@ body {
   border-radius: 10px;
 }
 
+.corFundo {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
 form input,
 form label,
 form button {

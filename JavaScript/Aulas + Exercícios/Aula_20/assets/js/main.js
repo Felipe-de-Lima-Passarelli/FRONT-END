@@ -21,5 +21,5 @@ function calcularIMC() {
 
   document.querySelector(
     ".resposta"
-  ).innerHTML += `<p>Seu IMC é ${imc} (${imcAtual})</p>`;
+  ).innerHTML += `<p>Seu IMC é <strong>${imc} (${imcAtual})</strong></p>`;
 }
