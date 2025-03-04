@@ -8,7 +8,6 @@ let data = new Date(10800000);
 
 iniciar.addEventListener("click", function (event) {
   relogio.classList.remove("vermelho");
-  relogio.classList.add("preto");
   relogio.innerHTML = data.toLocaleTimeString("pt-BR", {
     hour: "2-digit",
     minute: "2-digit",
@@ -27,14 +26,12 @@ iniciar.addEventListener("click", function (event) {
 });
 
 pausar.addEventListener("click", function (event) {
-  relogio.classList.remove("preto");
   relogio.classList.add("vermelho");
   clearInterval(timer);
 });
 
 zerar.addEventListener("click", function (event) {
   relogio.classList.remove("vermelho");
-  relogio.classList.add("preto");
   clearInterval(timer);
   data = new Date(10800000);
   relogio.innerHTML = "00:00:00";
