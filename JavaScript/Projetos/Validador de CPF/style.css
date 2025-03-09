@@ -41,6 +41,21 @@ body {
   padding: 5px 0px 5px 10px;
 }
 
+.tarefas ul {
+  margin: 30px;
+}
+
+.formata_entrada {
+  margin: 20px 0px 0px 0px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 0px 5px;
+  margin: 0px 10px;
+}
+
 form {
   margin: 10px 0px 0px 0px;
 }
