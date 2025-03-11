@@ -33,7 +33,10 @@ segundoDigito = segundoDigito >= 10 ? 0 : segundoDigito;
 doisDigitosPrograma = String(primeiroDigito) + String(segundoDigito);
 
 let respostaFinal;
-if (doisDigitos === doisDigitosPrograma) {
+if (
+  doisDigitos === doisDigitosPrograma &&
+  cpfPessoa.split(cpfPessoa[0]).length - 1 !== 11
+) {
   respostaFinal = "CPF Válido";
 } else {
   respostaFinal = "CPF Inválido";
