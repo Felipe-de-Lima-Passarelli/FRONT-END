@@ -1,0 +1,5 @@
+Passo 1 -> Criar o projeto com o comando:
+npx create-react-app "nome_do_projeto"
+
+Passo 2 -> Dentro da pasta do projeto, executar o comando:
+npm start
