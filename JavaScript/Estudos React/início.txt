@@ -3,3 +3,6 @@ npx create-react-app "nome_do_projeto"
 
 Passo 2 -> Dentro da pasta do projeto, executar o comando:
 npm start
+
+Extras -> npm install react-router-dom
+          npm install react-icons

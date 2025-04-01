@@ -1,0 +1,35 @@
+.listaStyle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.listaStyle li {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  color: #555;
+  padding-left: 1.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.listaStyle li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 1.5rem;
+  top: 0;
+  transition: all 0.3s ease;
+}
+
+.listaStyle li:hover {
+  color: #007bff;
+}
+
+.listaStyle li:hover::before {
+  color: #0056b3;
+}

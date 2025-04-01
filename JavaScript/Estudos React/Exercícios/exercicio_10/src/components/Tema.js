@@ -1,26 +1,30 @@
 import styles from "./Tema.module.css";
 
 function Tema() {
-  function mudarCorFundo(cor, texto) {
-    let x = document.querySelector("body");
-    let y = document.querySelector("h2");
-    x.style.backgroundColor = cor;
-    y.style.color = texto;
+  function mudaCorFundo(corFundo, corTexto) {
+    let tela = document.querySelector("body");
+    let texto = document.querySelector("h2");
+    tela.style.backgroundColor = corFundo;
+    texto.style.color = corTexto;
   }
 
   return (
     <>
       <button
         className={styles.buttonStyle}
-        onClick={() => mudarCorFundo("white", "black")}
+        onClick={() => {
+          mudaCorFundo("white", "black");
+        }}
       >
-        Tema Claro
+        Modo LIGHT
       </button>
       <button
         className={styles.buttonStyle}
-        onClick={() => mudarCorFundo("black", "white")}
+        onClick={() => {
+          mudaCorFundo("black", "white");
+        }}
       >
-        Tema Escuro
+        Modo DARK
       </button>
     </>
   );
