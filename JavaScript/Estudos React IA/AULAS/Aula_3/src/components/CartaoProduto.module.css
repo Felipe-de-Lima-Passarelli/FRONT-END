@@ -1,0 +1,41 @@
+.cartao {
+  border: 2px solid #ddd;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: black;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.678);
+}
+
+.nome {
+  font-size: 1.5rem;
+  color: pink;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 1rem;
+  color: pink;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: aqua;
+  margin-bottom: 15px;
+}
+
+.botao {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #218838;
+  color: black;
+}

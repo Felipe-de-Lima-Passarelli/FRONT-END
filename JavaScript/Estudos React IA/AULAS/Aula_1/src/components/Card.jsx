@@ -1,20 +1,23 @@
 import styles from "./Card.module.css";
 
-const Card = () => {
+const Card = ({ nome, curso, objetivo, frase }) => {
   return (
     <div className={styles.Card}>
-      <h2>Felipe de Lima Passarelli</h2>
+      <h2>{nome}</h2>
       <img
+        className={styles.Image}
         src="https://ui-avatars.com/api/?name=Felipe+Passarelli"
         alt="Meu avatar"
       />
       <p>
-        <strong>Curso Atual: </strong>Análise e Desenvolvimento de Sistemas
+        <strong>Curso Atual: </strong>
+        {curso}
         <br />
-        <strong>Objetivo Profissional: </strong>Conquistar a primeira vaga na
-        área de TI
+        <strong>Objetivo Profissional: </strong>
+        {objetivo}
         <br />
-        <strong>Frase motivacional: </strong>Be better
+        <strong>Frase motivacional: </strong>
+        {frase}
       </p>
     </div>
   );

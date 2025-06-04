@@ -1,11 +1,12 @@
 .Card {
   border: 1px solid #ddd;
   padding: 1rem;
+  margin-bottom: 10px;
   border-radius: 8px;
   max-width: 400px;
 }
 
-img {
+.Image {
   border-radius: 50%;
   width: 100px;
   height: 100px;
