@@ -1,0 +1,1 @@
+// Usando o array produtos do exercício anterior, faça uma função que receba o nome de um produto e retorne o objeto completo, se existir. Se não existir, retorne uma mensagem: "Produto não encontrado."
