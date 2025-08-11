@@ -8,6 +8,7 @@ const Formulario = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`Enviando o formulário com nome: ${name} e email: ${email}`);
+
     setName("");
     setEmail("");
   };
@@ -20,6 +21,7 @@ const Formulario = () => {
             <span>Nome:</span>
             <input
               type="text"
+              value={name}
               name="name"
               placeholder="Digite o seu nome"
               onChange={(e) => {
@@ -31,6 +33,7 @@ const Formulario = () => {
             <span>Email:</span>
             <input
               type="email"
+              value={email}
               name="email"
               placeholder="Digite o seu email"
               onChange={(e) => {
