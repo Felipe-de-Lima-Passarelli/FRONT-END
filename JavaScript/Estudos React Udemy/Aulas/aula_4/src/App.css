@@ -1,0 +1,21 @@
+.add-product {
+  border-top: 2px solid #fff;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.btn-submit {
+  margin-left: 25px;
+}
