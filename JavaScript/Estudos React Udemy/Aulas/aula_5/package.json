@@ -11,7 +11,7 @@
     "server": "json-server --watch data/db.json"
   },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3",
+    "json-server": "^0.17.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.8.1"

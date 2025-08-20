@@ -1,7 +1,11 @@
 import "./App.css";
 
 function App() {
-  <div>React</div>;
+  return (
+    <div>
+      <h1>Context API</h1>
+    </div>
+  );
 }
 
 export default App;

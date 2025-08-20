@@ -1,30 +1,28 @@
-import "./Home.css";
-import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useSearchParams, Link } from "react-router-dom";
 
-const url = "http://localhost:3000/products";
-
-const Home = () => {
-  const [products, setProducts] = useState([]);
+const Search = () => {
+  const [product, setProduct] = useState([]);
+  const [searchParams] = useSearchParams();
+  const url = "http://localhost:3000/products?" + searchParams.toString();
 
   useEffect(() => {
     async function fetchData() {
       const res = await fetch(url);
       const data = await res.json();
-      setProducts(data);
+      setProduct(data);
     }
     fetchData();
-  }, []);
+  }, [url]);
 
   return (
     <div>
-      <h2>Lista de Produtos</h2>
+      <h1>Resultados disponíveis</h1>
       <ul className="products">
-        {products.map((product) => (
+        {product.map((product) => (
           <li key={product.id}>
             <h2>{product.name}</h2>
             <p>R${product.price}</p>
-            <Link to={`/products/${product.id}`}>Detalhes do produto</Link>
           </li>
         ))}
       </ul>
@@ -32,4 +30,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Search;
