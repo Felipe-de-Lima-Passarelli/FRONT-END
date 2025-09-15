@@ -1,0 +1,14 @@
+.main h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.header {
+  background-color: rgb(43, 42, 42);
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 40px;
+  color: rgb(38, 136, 202);
+  font-weight: bold;
+  font-size: 40px;
+}

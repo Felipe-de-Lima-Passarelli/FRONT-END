@@ -1,7 +1,18 @@
 import "./App.css";
 
+//Components
+import Header from "./components/header";
+import Todolist from "./components/Todolist";
+import Footer from "./components/Footer";
+
 function App() {
-  return <h1>Início</h1>;
+  return (
+    <div className="App">
+      <Header />
+      <Todolist />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

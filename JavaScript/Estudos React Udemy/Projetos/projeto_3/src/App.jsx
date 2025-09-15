@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Início</h1>
+    <div className="App">
+      <h2>Início</h2>
     </div>
   );
 }
