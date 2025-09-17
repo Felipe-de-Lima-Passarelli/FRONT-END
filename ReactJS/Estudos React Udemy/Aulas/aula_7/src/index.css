@@ -7,3 +7,16 @@ html,
 body {
   text-align: center;
 }
+
+ul {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 15px;
+}
+
+button {
+  margin: 10px;
+}
