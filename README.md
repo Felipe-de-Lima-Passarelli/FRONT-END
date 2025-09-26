@@ -1,5 +1,27 @@
-# Estudos em Front-End
+# 🚀 Estudos em Front-End
 
-<p>As imagens utilizadas podem ter direitos autorais, foram utilizadas apenas para fins estudantis.
+Este repositório reúne meus **exercícios e projetos práticos** realizados durante meus estudos em **HTML, CSS, Bootstrap, JavaScript e ReactJS**.  
+O objetivo é praticar, consolidar conhecimentos e construir uma base sólida para me tornar desenvolvedor Front-End.
 
-Exercícios realizados enquanto estudava HTML + CSS + BOOTSTRAP + JavaScript + ReactJS.</p>
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5  
+- CSS3  
+- Bootstrap  
+- JavaScript (ES6+)
+- Typescript 
+- ReactJS  
+
+---
+
+## 📂 Projetos e exercícios
+
+- **Landing Pages** com HTML + CSS + Bootstrap  
+- **Pequenos scripts em JavaScript** (validação, interatividade etc.)  
+- **Aplicações ReactJS** para praticar componentes, props e estados  
+
+*(Aos poucos irei atualizando com novos exercícios e projetos conforme avanço nos estudos!)*
+
+---
