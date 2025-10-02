@@ -28,7 +28,7 @@
       <div>
         <figure>
           <img
-            src="./image/praia.jpg"
+            src="./images/praia.jpg"
             alt="praia"
             title="praia"
             width="500px"
@@ -48,6 +48,71 @@
       <!-- Tabelas -->
       <div>
         <h1>Tabelas</h1>
+        <table border="2">
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+          </tr>
+          <tr>
+            <td>Notebook Gamer</td>
+            <td>1</td>
+            <td>R$2000,00</td>
+          </tr>
+          <tr>
+            <td>Tablet</td>
+            <td>2</td>
+            <td>R$1000,00</td>
+          </tr>
+          <tr>
+            <!-- colspan -> extensão da coluna
+                 rowspan -> extensão da linha 
+            -->
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom 1 R$20,00</td>
+          </tr>
+          <tr>
+            <td colspan="2">Cupom 2 R$20,00</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h1>Mais sobre tabelas</h1>
+        <!-- caption -> Legenda / Título da tabela
+             thead -> Table Header (Cabeçalho da tabela) 
+             tbody -> Table Body (Corpo da tabela)
+             tfoot -> Table Footer (Rodapé da tabela)
+        -->
+        <table border="2">
+          <caption>
+            Listagem de produtos
+          </caption>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Quantidade</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Notebook Gamer</td>
+              <td>1</td>
+              <td>R$2000,00</td>
+            </tr>
+            <tr>
+              <td>Tablet</td>
+              <td>2</td>
+              <td>R$1000,00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td colspan="2">R$4000,00</td>
+            </tr>
+          </tfoot>
+        </table>
       </div>
     </div>
   </body>

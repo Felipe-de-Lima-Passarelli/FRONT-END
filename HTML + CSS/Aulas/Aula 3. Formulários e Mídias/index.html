@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mais sobre Formulários</title>
+  </head>
+  <body>
+    <h1>Mais sobre Formulários</h1>
+    <form action="processa.html" method="GET">
+      <h2>Label</h2>
+      <label>
+        Nome:
+        <input type="text" name="nome" />
+      </label>
+
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+
+      <br />
+
+      <h2>Mais elementos de formulário</h2>
+
+      Gênero<br />
+      <input type="radio" name="genero" value="feminino" id="feminino" />
+      <label for="feminino">Feminino</label>
+
+      <input type="radio" name="genero" value="masculino" id="masculino" />
+      <label for="masculino">Masculino</label>
+      <br /><br />
+
+      Estilo musical<br />
+      <input type="checkbox" name="estilo" value="rock" id="rock" />
+      <label for="rock">Rock</label>
+
+      <input type="checkbox" name="estilo" value="pop" id="pop" />
+      <label for="pop">Pop</label>
+
+      <input type="checkbox" name="estilo" value="sertanejo" id="sertanejo" />
+      <label for="sertanejo">Sertanejo</label>
+
+      <br /><br />
+
+      Estado:
+      <select name="estado">
+        <option value="">Selecione...</option>
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="ce">Ceará</option>
+      </select>
+
+      <br /><br />
+      Upload de arquivo:
+      <input type="file" name="arquivo" />
+
+      <br /><br />
+      <input type="submit" value="cadastrar" />
+    </form>
+
+    <form>
+      <h2>fieldset & legend</h2>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+
+        <label for="nome2">Nome</label>
+        <input type="text" name="nome" id="nome2" />
+
+        <label for="email2">Email</label>
+        <input type="text" name="email" id="email2" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados adicionais</legend>
+
+        Gênero<br />
+        <input type="radio" name="genero" value="feminino" id="feminino" />
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="genero" value="masculino" id="masculino" />
+        <label for="masculino">Masculino</label>
+        <br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
