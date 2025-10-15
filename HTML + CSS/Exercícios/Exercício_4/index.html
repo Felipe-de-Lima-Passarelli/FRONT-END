@@ -5,5 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício 4</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Exercício de formulários</h1>
+    <form>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label
+          >Nome<br />
+          <input type="text" name="nome" /> </label
+        ><br />
+        <label
+          >Email<br />
+          <input type="email" name="email" /> </label
+        ><br />
+        <label>
+          <input type="checkbox" name="receber" value="receber_email" />
+          Quero receber e-mail </label
+        ><br /><br />
+        <label>
+          Senha<br />
+          <input type="password" name="senha" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Informações adicionais</legend>
+        <label>
+          <input type="radio" name="pessoa" value="física" />
+          Pessoa Física
+        </label>
+        <label>
+          <input type="radio" name="pessoa" value="jurídica" />
+          Pessoa Jurídica
+        </label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Cadastrar" />
+    </form>
+  </body>
 </html>

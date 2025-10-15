@@ -1,0 +1,23 @@
+.produto {
+  border: 3px solid blueviolet;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.produto h1 {
+  color: blueviolet;
+}
+
+.produto p {
+  color: gray;
+}
+
+.produto img {
+  border: 2px solid blueviolet;
+  padding: 10px;
+}
+
+body {
+  background-color: #f2f2f2;
+}

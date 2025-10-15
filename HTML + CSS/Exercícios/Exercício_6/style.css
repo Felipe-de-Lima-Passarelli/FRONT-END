@@ -1,0 +1,32 @@
+.header {
+  background-color: rgb(34, 104, 207);
+}
+
+.header img {
+  width: 200px;
+}
+
+.header a {
+  color: white;
+}
+
+.header span {
+  color: rgb(34, 104, 207);
+  background-color: white;
+}
+
+.conteudo_1 {
+  background-color: purple;
+}
+
+.footer {
+  background-color: rgb(34, 104, 207);
+}
+
+.footer span.span_1 {
+  color: blue;
+}
+
+.footer span.span_2 {
+  color: white;
+}

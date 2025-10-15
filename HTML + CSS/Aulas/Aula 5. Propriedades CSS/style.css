@@ -1,0 +1,26 @@
+.header img {
+  width: 100px;
+}
+
+.header {
+  border-bottom: 3px solid black;
+}
+
+.conteudo {
+  background-color: lightgray;
+}
+
+.header span {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+}
+
+p span {
+  color: purple;
+}

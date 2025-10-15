@@ -1,0 +1,46 @@
+body {
+  width: 900px;
+  background-image: url(img/fundo.png);
+}
+
+.navegacao {
+  background-color: #bdbdab;
+  padding: 15px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  padding: 15px;
+  color: #4a5055;
+  font-weight: bold;
+}
+
+.conteudo {
+  background-color: #e5e4d5;
+  padding: 2px 8px;
+}
+
+.conteudo h3 {
+  font-size: 20px;
+  color: #767566;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.contato span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
