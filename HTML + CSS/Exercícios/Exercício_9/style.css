@@ -1,0 +1,40 @@
+#principal {
+  width: 920px;
+  margin: 0px auto;
+}
+
+.noticia {
+  background-color: #e5e5e5;
+  padding: 5px;
+  width: 280px;
+  margin: 7px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.conteudo {
+  width: 70%;
+  height: 500px;
+  float: left;
+  margin: 0px 60px;
+}
+
+.conteudo-lateral {
+  width: 20%;
+  height: 500px;
+  float: left;
+}
+
+.lista p {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 0px;
+}

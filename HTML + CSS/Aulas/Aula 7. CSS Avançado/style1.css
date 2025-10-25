@@ -1,0 +1,45 @@
+body {
+  background-color: purple;
+}
+
+#container {
+  width: 700px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 8px;
+  position: relative; /* Caso o container não tenha uma posição relativa, não da para usar posição absoluta, pois irá considerar o body e não o container */
+}
+
+.borda {
+  border: 2px solid red;
+}
+
+/* Fluxo normal */
+.estatica {
+  position: static;
+}
+
+/* Fluxo relativo |top, right, bottom, left| */
+.relativa {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+/* Fluxo absoluto (Precisa de posição relativa na div) */
+.absoluta {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+}
+
+/* Posição Fixa */
+.fixa {
+  position: fixed;
+  width: 200px;
+  height: 120px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}

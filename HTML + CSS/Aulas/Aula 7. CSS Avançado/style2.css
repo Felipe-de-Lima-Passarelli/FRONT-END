@@ -1,0 +1,49 @@
+.caixa {
+  width: 600px;
+  height: 300px;
+  border: 1px solid red;
+  background-color: lightgray;
+  overflow: auto; /* visible, hidden, scroll e auto */
+}
+
+.caixa1 {
+  border: 1px solid blue;
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  z-index: 0; /* Quanto maior o z-index, maior preferência no conteúdo de ficar acima do resto */
+}
+
+.caixa2 {
+  border: 1px solid red;
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -10px;
+  left: 80px;
+  z-index: 1; /* Quanto maior o z-index, maior preferência no conteúdo de ficar acima do resto */
+}
+
+.caixa3 {
+  border: 1px solid green;
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -30px;
+  left: 150px;
+  z-index: 2; /* Quanto maior o z-index, maior preferência no conteúdo de ficar acima do resto */
+}
+
+.flutuante {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  background-color: lightblue;
+  float: left;
+  margin: 0px 10px;
+}

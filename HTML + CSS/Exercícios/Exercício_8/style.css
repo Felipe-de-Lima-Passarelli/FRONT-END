@@ -1,0 +1,45 @@
+body {
+  background-color: lightskyblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.principal {
+  width: 700px;
+  background-color: white;
+  margin: 1em auto;
+  padding: 0.8em;
+  position: relative;
+}
+
+.navegacao {
+  background-color: #0497f3;
+  padding: 1em;
+}
+
+.imagem {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.chat {
+  background-color: violet;
+  width: 150px;
+  height: 200px;
+  padding: 0.5em;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+a {
+  padding: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: #0497f3;
+}
