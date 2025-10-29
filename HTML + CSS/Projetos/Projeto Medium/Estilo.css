@@ -1,5 +1,168 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
-  font-family: Arial;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  background-color: #c5e3f3;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.container {
+  width: 1145px;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
+
+ul.menu {
+  float: right;
+  width: 475px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.menu li a:hover {
+  color: #4c799f;
+}
+
+.menu li a.selecionado {
+  color: white;
+  border-radius: 1.2rem;
+  background-color: black;
+}
+
+.menu li a.selecionado:hover {
+  color: #c5e3f3;
+}
+
+.destaque {
+  background-color: #c5e3f3;
+  border-bottom: 1px solid black;
+  margin-top: 4.718749rem;
+}
+
+.area-destaque {
+  width: 55%;
+}
+
+.destaque button {
+  display: block;
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.fundo-destaque {
+  background: url(Imagens/fundo-topo.png) no-repeat right bottom;
+  background-size: 22rem;
+}
+
+.titulo-tendencia {
+  background: url(Imagens/icone-tendencia.png) no-repeat left / contain;
+  padding: 0.2rem 0rem 0.2rem 2rem;
+}
+
+.tendencias {
+  padding-top: 0.8rem;
+}
+
+.tendencias::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item-tendencia {
+  width: 26%;
+  padding-left: 7%;
+  margin-bottom: 2rem;
+  position: relative;
+  float: left;
+}
+
+.numero {
+  font-size: 3rem;
+  font-weight: bold;
+  color: lightgray;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.icone1,
+.icone2,
+.icone3,
+.icone4,
+.icone5,
+.icone6 {
+  padding-left: 1.5rem;
+}
+
+.icone1 {
+  background: url(Imagens/icone1.png) no-repeat left center / contain;
+}
+
+.icone2 {
+  background: url(Imagens/icone2.png) no-repeat left center / contain;
+}
+
+.icone3 {
+  background: url(Imagens/icone3.png) no-repeat left center / contain;
+}
+
+.icone4 {
+  background: url(Imagens/icone4.png) no-repeat left center / contain;
+}
+
+.icone5 {
+  background: url(Imagens/icone5.png) no-repeat left center / contain;
+}
+
+.icone6 {
+  background: url(Imagens/icone6.png) no-repeat left center / contain;
+}
+
+.rodape {
+  background-color: #c5e3f3;
+  border-top: 1px solid black;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 0px;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+}
+
+h3,
+h4 {
+  margin: 0.2rem;
+}
+
+h4 {
+  font-weight: 100;
 }

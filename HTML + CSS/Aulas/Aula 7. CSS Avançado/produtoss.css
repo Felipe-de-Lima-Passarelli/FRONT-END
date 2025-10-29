@@ -1,0 +1,37 @@
+.nav ul {
+  background-color: #24252a;
+  padding: 0.5em;
+  width: 720px;
+  list-style: none;
+}
+
+.nav ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav li a {
+  display: block;
+  padding: 0.5em 1.5em;
+  color: white;
+  text-decoration: none;
+  float: left;
+  margin: 0 0.5em;
+}
+
+.nav li a:hover {
+  background-color: #0582ac;
+  border-radius: 1.2em;
+}
+
+.nav li a:active {
+  background-color: #7a7a7a;
+}
+
+.nav li a.selecionado {
+  padding-left: 2.5em;
+  color: white;
+  background: purple url(img/seta.png) no-repeat 1.5em center;
+  border-radius: 1.2em;
+}
