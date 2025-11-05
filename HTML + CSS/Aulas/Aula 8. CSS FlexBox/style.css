@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+/* display flex, flex direction, flex wrap e flex flow */
+.container-flex {
+  border: 4px solid red;
+  width: 200px;
+  display: flex;
+  /* row / column / row-reverse / column-reverse */
+  flex-direction: row;
+  /* nowrap / rap / wrap-reverse */
+  flex-wrap: nowrap;
+  /* Junção do flex-direction com o flex-wrap */
+  flex-flow: row wrap;
+
+  /* Alinhamentos eixo principal */
+  /* start, end, center, space-between, space-around e space-evenly */
+  justify-content: flex-start;
+}
+
+.container-flex div {
+  color: white;
+  padding: 4px;
+  margin: 4px;
+  border: 4px solid white;
+}
+
+.container-flex-alinhamento {
+  border: 4px solid red;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  /* start, end, center, space-around[between, evenly] */
+  justify-content: center;
+}
+
+.container-flex-alinhamento div {
+  color: white;
+  padding: 4px;
+  margin: 4px;
+  border: 4px solid white;
+}
+
+.container-flex-alinhamento-duplo {
+  border: 4px solid red;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  /* start, end, center, stretch, baseline */
+  align-items: center;
+  /* start, end, center, space-around[between] stretch */
+  align-content: center;
+  flex-wrap: wrap;
+  /* Flex-grow (Crescer o item)
+     Flex-shrink (Diminuir o item)
+     Flex-basis (Largura do item)
+     flex: 1 1 200px (1º = grow, 2º = shrink, 3º = basis
+  */
+}
+
+.container-flex-alinhamento-duplo div {
+  color: white;
+  padding: 4px;
+  margin: 4px;
+  border: 4px solid white;
+}
+
+/* Order padrão = 0, visualização do menor para o maior */
+.item1 {
+  order: 1;
+}
