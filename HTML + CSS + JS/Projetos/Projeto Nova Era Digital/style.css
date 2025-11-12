@@ -1,0 +1,175 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #1f2937;
+  background-color: #f9fafb;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  padding: 15px;
+}
+
+header h1 {
+  color: #4f46e5;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+nav ul a li {
+  display: inline;
+  font-size: 1.2rem;
+  margin: 0px 15px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul a:hover {
+  color: #4f46e5;
+}
+
+.botao {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.botao:hover {
+  background-color: #6366f1;
+  transition: background-color 0.5s ease;
+}
+
+#grid-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px 170px;
+}
+
+#conteudo h1 {
+  color: #4f46e5;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+#conteudo p {
+  font-size: 1.2rem;
+}
+
+#imagem-conteudo {
+  display: flex;
+  justify-content: center;
+}
+
+#imagem-conteudo img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#servicos h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#servicos h2,
+h3 {
+  color: #4f46e5;
+}
+
+#grid-servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 10px;
+}
+
+.borda-servico {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 70px;
+  width: 300px;
+  height: 125px;
+}
+
+.borda-servico h3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.borda-servico p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+  #grid-servicos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+footer {
+  background-color: #4f46e5;
+  margin-top: 170px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+
+footer ul a li {
+  color: white;
+  margin: 0px 10px;
+  display: inline;
+}
+
+footer ul a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  #grid-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  #imagem-conteudo img {
+    margin-top: 50px;
+  }
+
+  #grid-servicos {
+    grid-template-columns: 1fr;
+  }
+}
