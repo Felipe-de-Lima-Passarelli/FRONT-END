@@ -37,3 +37,53 @@ for (let i = 0; i <= 4; i++) {
 }
 
 //4. Operadores de Atribuição
+
+let salario = 500;
+let bonus = 200;
+
+/*
+  salario += bonus
+  salario -= bonus
+  salario *= bonus
+  salario /= bonus
+*/
+
+salario += bonus; //Atribuição com aritmético
+console.log(salario);
+
+//5. Operadores Unários
+
+/*
+  ++number (Pré fixado)
+  number++ (Pós fixado)
+  --number (Pré fixado)
+  number-- (Pós fixado)
+*/
+
+let number = 1;
+
+number++;
+number--;
+
+console.log(number);
+
+//6. Diferença de var e let
+
+/*
+  var tem escopo global e de função
+  let tem escopo global, de função e de bloco
+*/
+
+//7. Função Anônima
+
+const somar = function (a, b) {
+  return a + b;
+};
+
+console.log(somar(3, 5));
+
+//8. Arrow Function
+
+const multiplicar = (a, b) => a * b;
+
+console.log(multiplicar(2, 5));
