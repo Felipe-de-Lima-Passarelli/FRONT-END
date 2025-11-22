@@ -1,221 +1,221 @@
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-	font-family: Arial;
-	background: #fff url(Imagens/fundo.png) repeat-x;
+  font-family: Arial;
+  background: #fff url(Imagens/fundo.png) repeat-x;
 }
 
 #Topo {
-	width: 750px;
-	height: 175px;
-	margin: 0px auto;
-	background: url(Imagens/detalhe-topo.png) no-repeat right top;
+  width: 750px;
+  height: 175px;
+  margin: 0px auto;
+  background: url(Imagens/detalhe-topo.png) no-repeat right top;
 }
 
-#Topo #Navegação_Horizontal{
-	margin: 30px 0px;
+#Topo #Navegação_Horizontal {
+  margin: 30px 0px;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-	margin: 0px;
-	padding: 0px;
-	color: white;
-	text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
 }
 
 #Navegação_Horizontal {
-	background-color: red;
-	margin: 0px;
-	padding: 15px 5px;
-	width: 600px;
+  background-color: red;
+  margin: 0px;
+  padding: 15px 5px;
+  width: 600px;
 }
 
 #Navegação_Horizontal ul li {
-	display: inline;
+  display: inline;
 }
 
 #Navegação_Horizontal ul li a {
-	margin: 0px 13px;
+  margin: 0px 13px;
 }
 
 #Navegação_Horizontal ul li a:hover {
-	color: red;
-	background: white;
+  color: red;
+  background: white;
 }
 
-#Navegação_Horizontal ul li.Página_Atual a{
-	color: yellow;
-	background: red;
-	cursor: text;
-	text-decoration: underline;
+#Navegação_Horizontal ul li.Página_Atual a {
+  color: yellow;
+  background: red;
+  cursor: text;
+  text-decoration: underline;
 }
 
 #Colunas {
-	margin-top: 80px;
+  margin-top: 80px;
 }
 
 .Primário {
-	float: left;
-	width: 280px;
-	margin: 0px 0px 0px 175px;
-	background-image: url(Imagens/fundo-caixa.png);
+  float: left;
+  width: 280px;
+  margin: 0px 0px 0px 175px;
+  background-image: url(Imagens/fundo-caixa.png);
 }
 
 .Secundário {
-	float: left;
-	width: 280px;
-	margin: 0px 0px 15px 0px;
-	background-image: url(Imagens/fundo-caixa.png);
+  float: left;
+  width: 280px;
+  margin: 0px 0px 15px 0px;
+  background-image: url(Imagens/fundo-caixa.png);
 }
 
 .Lateral {
-	float: left;
-	width: 160px;
-	margin: 0px 0px 15px -750px;
-	background-image: url(Imagens/fundo-caixa.png);
+  float: left;
+  width: 160px;
+  margin: 0px 0px 15px -750px;
+  background-image: url(Imagens/fundo-caixa.png);
 }
 
 .Clear {
-	clear: both;
+  clear: both;
 }
 
 #Rodapé_Geral {
-	background: #294c71;
-	padding: 20px;
+  background: #294c71;
+  padding: 20px;
 }
 
 #Rodapé {
-	width: 750px;
-	margin: 0 auto;
-	color: #fff;
+  width: 750px;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .Título_Lateral h2 {
-	background: #294c71;
-	margin: 5px;
-	color: white;
-	padding: 5px;
+  background: #294c71;
+  margin: 5px;
+  color: white;
+  padding: 5px;
 }
 
 .Conteúdo_Lateral {
-	background-color: #fff;
-	margin: 10px 5px;
+  background-color: #fff;
+  margin: 10px 5px;
 }
 
 .Conteúdo_Lateral a {
-	color: black;
+  color: black;
 }
 
 .Conteúdo_Lateral a:hover {
-	color: grey;
-	background: url(Imagens/marcador.png) no-repeat left center;
-	padding: 0px 0px 0px 20px;
+  color: grey;
+  background: url(Imagens/marcador.png) no-repeat left center;
+  padding: 0px 0px 0px 20px;
 }
 
 .Conteúdo_Lateral li {
-	padding: 8px 5px;
+  padding: 8px 5px;
 }
 
 .Título_Primário h2 {
-	background: #294c71;
-	margin: 5px;
-	color: white;
-	padding: 5px;
+  background: #294c71;
+  margin: 5px;
+  color: white;
+  padding: 5px;
 }
 
 #Formulário {
-	padding: 8px 0px;
+  padding: 8px 0px;
 }
 
 .Branco {
-	background: white;
-	margin: 5px;
+  background: white;
+  margin: 5px;
 }
 
 .Branco2 {
-	background: white;
-	margin: 5px;
+  background: white;
+  margin: 5px;
 }
 
 input {
-	width: 146px;
-	height: 25px;
+  width: 146px;
+  height: 25px;
 }
 
 input.Confirmar {
-	color: white;
-	background: red;
-	padding: 5px;
-	width: 80px;
-	height: 30px;
+  color: white;
+  background: red;
+  padding: 5px;
+  width: 80px;
+  height: 30px;
 }
 
 h2 {
-	padding: 0px;
-	margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .Branco h2 {
-	background-color: red;
-	color: white;
-	font-weight: bolder;
-	padding: 3px;
-	font-size: 15px;
-	width: 145px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  padding: 3px;
+  font-size: 15px;
+  width: 145px;
 }
 
 .Branco h3 {
-	background: #294c71;
-	margin: 5px 0px;
-	color: white;
-	padding: 5px;
+  background: #294c71;
+  margin: 5px 0px;
+  color: white;
+  padding: 5px;
 }
 
 .Branco2 h2 {
-	background-color: red;
-	color: white;
-	font-weight: bolder;
-	padding: 3px;
-	font-size: 15px;
-	width: 236px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  padding: 3px;
+  font-size: 15px;
+  width: 236px;
 }
 
 .Branco img {
-	margin: 3px 0px 0px 0px;
+  margin: 3px 0px 0px 0px;
 }
 
 .Branco2 img {
-	margin: 3px 0px 0px 0px;
+  margin: 3px 0px 0px 0px;
 }
 
 .Branco3 {
-	background: white;
+  background: white;
 }
 
 .Branco a {
-	color: blue;
-	text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 
 .Branco2 a {
-	color: blue;
-	text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 
 .Título_Secundário h2 {
-	background: #294c71;
-	margin: 5px;
-	color: white;
-	padding: 5px;
+  background: #294c71;
+  margin: 5px;
+  color: white;
+  padding: 5px;
 }
 
 .Letra {
-	font-size: 13px;
+  font-size: 13px;
 }

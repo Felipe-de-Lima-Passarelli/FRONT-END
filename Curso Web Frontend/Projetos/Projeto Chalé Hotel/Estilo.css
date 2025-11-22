@@ -1,134 +1,134 @@
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-	font-family: Arial;
-	margin: 15px;
-	background: url(Imagens/bg.png);
-	max-width: 1370px;
-	min-width: 1070px;
+  font-family: Arial;
+  margin: 15px;
+  background: url(Imagens/bg.png);
+  max-width: 1370px;
+  min-width: 1070px;
 }
 
 #Topo {
-	position: relative;
+  position: relative;
 }
 
 .Logo {
-	position: absolute;
-	top: 0;
-	left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .Conteúdo_Topo {
-	position: absolute;
-	top: 0;
-	right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .Conteúdo_Topo h4 {
-	position: absolute;
-	left: 100px;
-	top: 30px;
-	color: #aa9e5b;
-	border-top: 1px solid #aa9e5b;
-	border-bottom: 1px solid #aa9e5b;
-	padding: 10px;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  color: #aa9e5b;
+  border-top: 1px solid #aa9e5b;
+  border-bottom: 1px solid #aa9e5b;
+  padding: 10px;
 }
 
 .Conteúdo_Topo button {
-	position: absolute;
-	left: 470px;
-	top: 33px;
-	padding: 7px;
-	background: #aa9e5b;
-	color: white;
+  position: absolute;
+  left: 470px;
+  top: 33px;
+  padding: 7px;
+  background: #aa9e5b;
+  color: white;
 }
 
 ul {
-	list-style-type: none;
-	position: absolute;
-	left: 100px;
-	top: 80px;
+  list-style-type: none;
+  position: absolute;
+  left: 100px;
+  top: 80px;
 }
 
 a {
-	color: #aa9e5b;
-	font-weight: bolder;
-	text-decoration: none;
-	font-size: 18px;
+  color: #aa9e5b;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 a:hover {
-	color: white;
-	background: #aa9e5b;
+  color: white;
+  background: #aa9e5b;
 }
 
 ul li {
-	padding: 6px;
+  padding: 6px;
 }
 
 .Absolute {
-	position: absolute;
-	left: 400px;
-	top: 80px;
+  position: absolute;
+  left: 400px;
+  top: 80px;
 }
 
 .Aqui {
-	position: absolute;
-	top: 275px;
+  position: absolute;
+  top: 275px;
 }
 
 .Esquerda {
-	float: left;
-	padding: 0px 40px 0px 0px;
-	background: #fff8db;
-	width: 665px;
-	min-width: 660px;
+  float: left;
+  padding: 0px 40px 0px 0px;
+  background: #fff8db;
+  width: 665px;
+  min-width: 660px;
 }
 
 .Esquerda h2 {
-	color: #7e754a;
-	margin: 20px;
+  color: #7e754a;
+  margin: 20px;
 }
 
 .Esquerda p {
-	color: black;
-	margin: 20px;
+  color: black;
+  margin: 20px;
 }
 
 .Direita {
-	float: left;
-	width: 665px;
-	background: #eee9c5;
-	min-width: 660px;
+  float: left;
+  width: 665px;
+  background: #eee9c5;
+  min-width: 660px;
 }
 
 .Direita img {
-	width: 245px;
-	margin: 20px 20px 20px 20px;
-	float: left;
+  width: 245px;
+  margin: 20px 20px 20px 20px;
+  float: left;
 }
 
 .Direita h2 {
-	margin: 20px;
-	color: #5d5832;
+  margin: 20px;
+  color: #5d5832;
 }
 
 .Clear {
-	clear: both;
+  clear: both;
 }
 
 .Clear h2 {
-	margin: 0px;
-	padding: 25px 0px 10px 0px;
-	color: #5d5832;
+  margin: 0px;
+  padding: 25px 0px 10px 0px;
+  color: #5d5832;
 }
 
 .Rodapé {
-	clear: both;
-	margin: 15px;
-	padding: 10px 0px;
-	color:  #aa9e5b;
+  clear: both;
+  margin: 15px;
+  padding: 10px 0px;
+  color: #aa9e5b;
 }
