@@ -5,7 +5,7 @@ const GameOver = ({ retry, score }) => {
     <div>
       <h1>Fim do jogo!</h1>
       <h2>
-        A sua pontuaçãa foi: <span>{score}</span>
+        A sua pontuação foi: <span>{score}</span>
       </h2>
       <button onClick={retry}>Resetar jogo</button>
     </div>

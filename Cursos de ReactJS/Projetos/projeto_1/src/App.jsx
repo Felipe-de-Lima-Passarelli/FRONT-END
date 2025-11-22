@@ -104,11 +104,12 @@ function App() {
   useEffect(() => {
     const uniqueLetters = [...new Set(letters)];
 
-    //win condition
+    // Evita vitória antes do jogo começar
+    if (uniqueLetters.length === 0) return;
+
+    // win condition
     if (guessedLetters.length === uniqueLetters.length) {
-      //Add score
       setScore((actual) => actual + 100);
-      //Restart game with new word
       startGame();
     }
   }, [guessedLetters, letters, startGame]);
