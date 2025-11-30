@@ -7,14 +7,65 @@
     <title>Estudos</title>
   </head>
   <body>
+    <!-- 1. Selecionando elementos individuais -->
     <div id="destaque">Área de conteúdo</div>
     <h1 class="vermelho">Título do Site</h1>
     <p>Subtítulo</p>
     <ul>
+      <!-- 2. Selecionando múltiplos elementos -->
       <li class="primeiro">Item 1</li>
       <li>Item 2</li>
     </ul>
     <button class="botao">Clique aqui</button>
+
+    <br /><br />
+
+    <!-- 3. Selecionando elementos de formulário -->
+    <form name="cadastro">
+      <input type="text" name="nome" placeholder="Digite seu nome" />
+      <input type="email" name="email" placeholder="Digite seu e-mail" />
+      <select name="" sexo>
+        <option value="">--</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+    </form>
+
+    <br /><br />
+
+    <!-- 4. Navegando por elementos -->
+    <div>Irmão anterior</div>
+    <div id="itens">
+      <p>Primeiro elemento</p>
+      <p>Segundo elemento</p>
+      <p>Terceiro elemento</p>
+      <p>Quarto elemento</p>
+    </div>
+    <div>Próximo irmão</div>
+
+    <br /><br />
+
+    <!-- 5. Selecionando atributos -->
+    <img
+      src="img/celular.png"
+      alt="Imagem do celular"
+      width="500px"
+      id="imagem"
+    />
+    <a href="https://www.google.com" id="link">Clique aqui</a>
+    <button id="botao">Clique aqui para alterar a imagem</button>
+
+    <br /><br />
+
+    <!-- 6. Atributos personalizados -->
+    <span id="itens2" data-quantidade="2" data-status="pendente"
+      >2 itens no carrinho</span
+    >
+
+    <br /><br />
+
+    <!-- 7. Adicionando e removendo elementos -->
+    <h2>Teste</h2>
 
     <!-- JavaScript -->
     <script src="index.js"></script>

@@ -2,10 +2,15 @@
   background-color: red;
 }
 
+#itens {
+  background-color: orange;
+}
+
 .primeiro {
   background-color: orange;
 }
 
-.destaque {
+.itemDestaque {
   color: white;
+  background-color: black;
 }

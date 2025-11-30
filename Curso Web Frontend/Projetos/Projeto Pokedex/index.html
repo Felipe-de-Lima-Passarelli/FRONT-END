@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main>
+      <div class="number_name">
+        <span class="number_pokemon">1 - </span>
+        <span class="name_pokemon">bulbasaur</span>
+      </div>
+      <img
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif"
+        alt=""
+        class="actual_pokemon"
+      />
+      <form class="form_pokemon">
+        <input
+          type="search"
+          id="search_pokemon"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+      <div class="buttons">
+        <button class="prev">Prev &lt;</button>
+        <button class="next">Next &gt;</button>
+      </div>
+      <img src="img/pokedex.png" alt="Pokedex" class="pokedex_image" />
+    </main>
+  </body>
+</html>
