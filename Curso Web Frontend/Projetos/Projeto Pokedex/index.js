@@ -25,9 +25,9 @@ async function requestPokemon(pokemon) {
 async function newPokemon(e) {
   e.preventDefault();
   const search = search_pokemon.value.toLowerCase();
-  id = Number(search);
-  if (search > 649 || search < 1) return;
   const newPokemon = await requestPokemon(search);
+  id = newPokemon.id;
+  if (id > 649 || id < 1) return;
   actual_pokemon.src =
     newPokemon.sprites.versions["generation-v"][
       "black-white"
