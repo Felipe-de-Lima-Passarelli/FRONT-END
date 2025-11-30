@@ -17,8 +17,12 @@ const next = document.getElementsByClassName("next")[0];
 async function requestPokemon(pokemon) {
   const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
   const response = await fetch(url);
-  const data = await response.json();
-  return data;
+  if (response.status === 404) {
+    return undefined;
+  } else {
+    const data = await response.json();
+    return data;
+  }
 }
 
 //Função para trocar de pokemon no form
@@ -26,14 +30,21 @@ async function newPokemon(e) {
   e.preventDefault();
   const search = search_pokemon.value.toLowerCase();
   const newPokemon = await requestPokemon(search);
-  id = newPokemon.id;
-  if (id > 649 || id < 1) return;
-  actual_pokemon.src =
-    newPokemon.sprites.versions["generation-v"][
-      "black-white"
-    ].animated.front_default;
-  number_pokemon.innerHTML = `${newPokemon.id} - `;
-  name_pokemon.innerHTML = newPokemon.name;
+  if (newPokemon === undefined) {
+    actual_pokemon.src = "";
+    number_pokemon.innerHTML = `??? - `;
+    name_pokemon.innerHTML = "Not found";
+  } else {
+    id = newPokemon.id;
+    if (id > 649 || id < 1) return;
+    actual_pokemon.src =
+      newPokemon.sprites.versions["generation-v"][
+        "black-white"
+      ].animated.front_default;
+    number_pokemon.innerHTML = `${newPokemon.id} - `;
+    name_pokemon.innerHTML = newPokemon.name;
+  }
+  search_pokemon.value = "";
 }
 
 //Função para trocar de pokemon nos botões
