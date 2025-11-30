@@ -25,6 +25,7 @@ async function requestPokemon(pokemon) {
 async function newPokemon(e) {
   e.preventDefault();
   const search = search_pokemon.value.toLowerCase();
+  if (search > 649 || search < 1) return;
   id = search;
   const newPokemon = await requestPokemon(search);
   actual_pokemon.src =
@@ -48,7 +49,7 @@ async function next_prev(e) {
     number_pokemon.innerHTML = `${newPokemon.id} - `;
     name_pokemon.innerHTML = newPokemon.name;
   } else {
-    if (id === 1025) return;
+    if (id === 649) return;
     id++;
     const newPokemon = await requestPokemon(id);
     actual_pokemon.src =
