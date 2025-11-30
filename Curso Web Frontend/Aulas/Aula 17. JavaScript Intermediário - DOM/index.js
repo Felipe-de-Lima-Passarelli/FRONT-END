@@ -76,3 +76,15 @@ console.log(itemCarrinho.dataset.quantidade);
 console.log(itemCarrinho.dataset.status);
 
 //7. Adicionando e removendo elementos
+
+const listaUL = document.getElementById("itens3");
+const li1 = document.createElement("li");
+li1.innerHTML = "Roberto";
+
+const li2 = document.createElement("li");
+li2.innerHTML = "Vieira";
+
+listaUL.appendChild(li1); //Adiciona Roberto
+listaUL.appendChild(li2); //Adiciona Vieira
+
+listaUL.removeChild(li1); //Remove Roberto
