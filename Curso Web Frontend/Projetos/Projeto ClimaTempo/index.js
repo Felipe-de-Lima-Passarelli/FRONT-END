@@ -42,7 +42,8 @@ async function searchCity(city) {
   if (data === undefined) {
     temperature.innerHTML = "??º C";
     nameCity.innerHTML = "Not Found";
-    humidity.innerHTML = `?? %`;
+    humidity.innerHTML = "?? %";
+    wind_speed.innerHTML = "?? Km/h";
   } else {
     temperature.innerHTML = `${Math.round(data.main.temp)}º C`;
     nameCity.innerHTML = data.name;
