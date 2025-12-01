@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>ClimaTempo</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="search">
+        <form id="form">
+          <input
+            type="search"
+            name="search_city"
+            placeholder="Search"
+            class="search_city"
+          />
+        </form>
+        <img src="img/search.png" alt="Lupa de Pesquisa" class="img_search" />
+      </div>
+      <div class="name_city">
+        <img src="img/cloud.png" alt="Nuvem" width="50%" class="sky_image" />
+        <span class="temperature">??º C</span>
+        <span class="city_name">?????</span>
+      </div>
+      <div class="humidity_wind">
+        <div>
+          <img src="img/humidity.png" alt="humidity" width="30%" />
+          <span class="humidity_percent">?? %</span>
+        </div>
+        <div>
+          <img src="img/wind.png" alt="Wind Speed" width="25%" />
+          <span class="wind_speed">??? Km/h</span>
+        </div>
+      </div>
+      <div class="end">
+        <span>Humidity</span>
+        <span>Wind Speed</span>
+      </div>
+    </main>
+  </body>
+</html>
