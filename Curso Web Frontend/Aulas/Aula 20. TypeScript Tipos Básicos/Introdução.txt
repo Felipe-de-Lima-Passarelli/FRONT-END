@@ -1,0 +1,13 @@
+1. Iniciar o Projeto
+
+    .npm init -y
+
+2. Instalar o JS localmente
+
+    .npm i typescript -D
+    .npx tsc --init
+
+3. Compilar os arquivos TS para JS
+
+    .npx tsc "local do script" ou npx tsc (Com tsconfig configurado)
+    Ex.: npx tsc ./src/index.ts ou npx tsc
