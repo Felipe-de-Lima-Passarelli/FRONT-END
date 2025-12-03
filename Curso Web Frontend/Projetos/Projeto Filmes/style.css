@@ -48,13 +48,17 @@ body {
   transition: color 0.3s;
 }
 
-.active {
-  color: white;
+.header ul li a.active {
+  color: #f2f2f2;
 }
 
 .header ul li a:hover {
   color: #ffa500;
   cursor: pointer;
+}
+
+a.disabled {
+  pointer-events: none;
 }
 
 /* CONTAINER */
