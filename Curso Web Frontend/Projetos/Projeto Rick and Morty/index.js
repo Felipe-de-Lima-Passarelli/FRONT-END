@@ -25,7 +25,6 @@ async function getCharactersByPage(page) {
 
 // Renderização da página atual
 async function renderPage(page) {
-  let pos = 0; // reseta pos a cada renderização
   cards.innerHTML = ""; // limpa os cards, mantendo 20 por página
 
   const characters = await getCharactersByPage(page);
