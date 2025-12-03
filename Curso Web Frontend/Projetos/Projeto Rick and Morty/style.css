@@ -1,0 +1,133 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.header {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #1b1b1b;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  color: #7fffd4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.25);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-info h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  color: #7fffd4;
+}
+
+.card-info p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: #00ffaa;
+  font-weight: bold;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  background: #333;
+  margin-top: 10%;
+}
+
+.status.alive {
+  background: #2ecc71;
+  color: #000;
+}
+
+.status.dead {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.status.unknown {
+  background: #999;
+  color: #000;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 30px 0;
+}
+
+.pagination button {
+  padding: 8px 18px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #27ae60;
+}
+
+.pagination button:disabled {
+  background-color: #bbb;
+  cursor: not-allowed;
+}
+
+#page-number {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
