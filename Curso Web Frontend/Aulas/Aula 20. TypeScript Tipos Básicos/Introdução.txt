@@ -11,3 +11,7 @@
 
     .npx tsc "local do script" ou npx tsc (Com tsconfig configurado)
     Ex.: npx tsc ./src/index.ts ou npx tsc
+
+4. Compilar automaticamente enquanto coda
+
+    .npx tsc -w
