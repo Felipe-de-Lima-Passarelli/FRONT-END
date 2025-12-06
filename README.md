@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu portfólio! 🚀
 Aqui estão os **projetos mais recentes que desenvolvi para praticar e demonstrar minhas habilidades**.
-O objetivo é mostrar minha evolução no desenvolvimento de interfaces modernas, responsivas e interativas, utilizando **HTML, CSS, JavaScript e React**.
+O objetivo é mostrar minha evolução no desenvolvimento de interfaces modernas, responsivas e interativas, utilizando **HTML, CSS, JavaScript, TypeScript e React**.
 
 ---
 
@@ -24,7 +24,8 @@ O objetivo é mostrar minha evolução no desenvolvimento de interfaces modernas
 * **Pokedéx**: Busca, navegação e sprites animados usando **HTML, CSS e JavaScript**, integrando a **PokeAPI**.
 * **Rick and Morty Characters**: Cards dinâmicos com paginação, status animado e integração com a **Rick and Morty API**.
 * **Yu-Gi-Oh Cards**: Exploração de cartas por raça, cards estilizados e navegação entre 25 categorias usando a **YGOProDeck API**.
-* **Filmes de Ação**: Catálogo de filmes com paginação, tratamento de dados ausentes e integração com **TMDB API**.
+* **ClimaTempo**: Aplicativo de previsão do tempo com interface interativa, consumindo dados da **Weather API** e exibindo informações como temperatura, clima e localização de forma dinâmica.
+* **Listagem de Filmes**: Catálogo de filmes com paginação, tratamento de dados ausentes e integração com **TMDB API**.
 
 ### 🎨 **Landing Pages e UI**
 
