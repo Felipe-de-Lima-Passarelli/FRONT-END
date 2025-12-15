@@ -10,13 +10,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Forma de aplicar classes do Tailwind com apply */
-.meuTexto {
-  @apply bg-red-400 p-5;
-  @apply hover:bg-purple-500;
-}
-
-.campoTexto {
-  @apply bg-gray-600 p-1 rounded-md text-white;
-}

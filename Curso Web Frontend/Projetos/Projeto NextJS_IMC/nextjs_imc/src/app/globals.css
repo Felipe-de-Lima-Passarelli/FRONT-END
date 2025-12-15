@@ -11,12 +11,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Forma de aplicar classes do Tailwind com apply */
-.meuTexto {
-  @apply bg-red-400 p-5;
-  @apply hover:bg-purple-500;
+h1 {
+  font-size: 30px;
 }
 
-.campoTexto {
-  @apply bg-gray-600 p-1 rounded-md text-white;
+.meuInput {
+  @apply bg-gray-800 text-white p-2 rounded-md;
+}
+
+.meuBotao {
+  @apply bg-blue-500 text-white p-2 rounded-md;
 }

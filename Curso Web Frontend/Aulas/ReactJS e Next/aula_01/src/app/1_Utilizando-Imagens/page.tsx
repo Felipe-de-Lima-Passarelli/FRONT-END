@@ -1,9 +1,11 @@
 import Imagem from "@/components/Imagem";
+import Nav from "@/components/Nav";
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <h1>Página de Imagens</h1>
+      <Nav />
       <hr />
       <hr />
       <br />
@@ -14,4 +16,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

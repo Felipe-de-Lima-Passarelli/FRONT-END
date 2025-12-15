@@ -1,4 +1,6 @@
-const page = () => {
+import Nav from "@/components/Nav";
+
+const Page = () => {
   const usuarios = [
     { id: 1, nome: "Jamilton", email: "jamilton@gmail.com" },
     { id: 2, nome: "Ana", email: "ana@gmail.com" },
@@ -13,7 +15,12 @@ const page = () => {
     </li>
   ));
 
-  return <ul>{lista}</ul>;
+  return (
+    <div>
+      <Nav />
+      <ul>{lista}</ul>
+    </div>
+  );
 };
 
-export default page;
+export default Page;

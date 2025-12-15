@@ -1,6 +1,6 @@
 # 1. Criar o Projeto
 
-    .npx create-next-app@15
+    .npx create-next-app
 
 # 2. Iniciar o Projeto
 

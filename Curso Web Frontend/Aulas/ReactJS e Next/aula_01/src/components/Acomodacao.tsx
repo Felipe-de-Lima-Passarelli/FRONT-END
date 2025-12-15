@@ -1,4 +1,9 @@
-const Acomodacao = ({ title, desc }: { title: string; desc: string }) => {
+interface AcomodacaoProps {
+  title: string;
+  desc: string;
+}
+
+const Acomodacao = ({ title, desc }: AcomodacaoProps) => {
   return (
     <div>
       <span>Imagem Acomodação</span>

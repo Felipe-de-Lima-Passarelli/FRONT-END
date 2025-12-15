@@ -1,14 +1,12 @@
 import Image from "next/image";
 
-const Imagem = ({
-  name,
-  src,
-  alt,
-}: {
+interface ImageProps {
   name: string;
   src: string;
   alt: string;
-}) => {
+}
+
+const Imagem = ({ name, src, alt }: ImageProps) => {
   return (
     <div>
       <h2 className="text-blue-300">{name}</h2>
