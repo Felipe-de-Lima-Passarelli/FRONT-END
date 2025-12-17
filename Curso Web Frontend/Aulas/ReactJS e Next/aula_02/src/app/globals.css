@@ -12,6 +12,7 @@ body {
 }
 
 @layer components {
+  /* Aula Componentes Tailwind */
   .btn-sucess,
   .btn-warning,
   .btn-error {
@@ -28,5 +29,10 @@ body {
 
   .btn-error {
     @apply bg-red-500 hover:bg-red-400;
+  }
+
+  /* Aula flexbox */
+  .caixa {
+    @apply px-4 py-2 rounded-md bg-orange-400 text-white;
   }
 }
