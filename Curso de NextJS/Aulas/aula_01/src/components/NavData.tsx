@@ -8,9 +8,9 @@ const NavData = () => {
   const data = Posts;
 
   return (
-    <div>
-      <h2>Navegação Dinâmica</h2>
-      <ul className="flex flex-row gap-4 m-2">
+    <>
+      <h2 className="mt-2">Módulo 2 - Navegação Dinâmica</h2>
+      <ul className="flex flex-row gap-4 my-2">
         {data.map((post) => (
           <li key={post.id}>
             <Link
@@ -22,7 +22,7 @@ const NavData = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
