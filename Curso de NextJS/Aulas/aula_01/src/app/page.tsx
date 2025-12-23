@@ -1,8 +1,11 @@
+//Next
+import Link from "next/link";
+
 //Components
 import NavData from "@/components/NavData";
 import ParamURL from "@/components/ParamURL";
 import EstaticNav from "@/components/EstaticNav";
-import Link from "next/link";
+import NestedRoutes from "@/components/NestedRoutes";
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
       <ParamURL />
 
       {/* Módulo 4 - Nested Routes */}
+      <NestedRoutes />
+
+      {/* Módulo 5 - Teste */}
     </div>
   );
 }
