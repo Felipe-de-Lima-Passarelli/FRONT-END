@@ -1,4 +1,5 @@
 //Next
+import NavBar from "@/components/NavBar";
 import Link from "next/link";
 
 const Page = () => {
@@ -14,6 +15,7 @@ const Page = () => {
           Home
         </Link>
       </div>
+      <NavBar />
     </div>
   );
 };

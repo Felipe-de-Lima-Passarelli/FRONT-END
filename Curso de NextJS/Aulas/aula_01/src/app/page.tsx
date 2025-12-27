@@ -6,6 +6,8 @@ import NavData from "@/components/NavData";
 import ParamURL from "@/components/ParamURL";
 import EstaticNav from "@/components/EstaticNav";
 import NestedRoutes from "@/components/NestedRoutes";
+import NavBar from "@/components/NavBar";
+import Redirect from "@/components/Redirect";
 
 export default function Home() {
   return (
@@ -26,7 +28,11 @@ export default function Home() {
       {/* Módulo 4 - Nested Routes */}
       <NestedRoutes />
 
-      {/* Módulo 5 - Teste */}
+      {/* Módulo 5 - Link Ativo */}
+      <NavBar />
+
+      {/* Módulo 6 - Redirect */}
+      <Redirect />
     </div>
   );
 }
