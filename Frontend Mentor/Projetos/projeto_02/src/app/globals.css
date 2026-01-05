@@ -1,12 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: white;
-  --foreground: black;
+  --background: linear-gradient(to bottom, #050a1d, #071134);
+  --foreground: white;
+}
+
+.light {
+  --background: linear-gradient(to bottom, #e5e7eb, #cbd5e1);
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+  @apply bg-[#F35C53] text-[#2C1131];
 }
