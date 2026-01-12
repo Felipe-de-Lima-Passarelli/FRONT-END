@@ -78,14 +78,6 @@ http://localhost:3000
 
 ---
 
-## 🔹 Screenshots
-
-![Login](./screenshots/login.png)  
-![Register](./screenshots/register.png)  
-![Logged](./screenshots/logged.png)
-
----
-
 ## 🔹 Autor
 
 **Felipe de Lima Passarelli**  
