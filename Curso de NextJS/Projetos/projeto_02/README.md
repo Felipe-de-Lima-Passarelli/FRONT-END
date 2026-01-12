@@ -67,17 +67,6 @@ npm run dev
 http://localhost:3000
 ```
 
----
-
-## 🔹 Próximas Melhorias
-
-- Implementar **hash de senha** para segurança.
-- Adicionar **validação de formulário mais avançada**.
-- Substituir `localStorage` por **API real / banco de dados**.
-- Melhorar o design e responsividade do painel do usuário.
-
----
-
 ## 🔹 Autor
 
 **Felipe de Lima Passarelli**  
