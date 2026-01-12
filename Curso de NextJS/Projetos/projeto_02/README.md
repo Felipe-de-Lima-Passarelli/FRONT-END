@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sistema de Autenticação em Next.js
 
-## Getting Started
+Um projeto Front-End desenvolvido com **Next.js**, **React** e **TypeScript**, implementando um sistema simples de autenticação com login, registro e painel do usuário.  
+O projeto utiliza **localStorage** para armazenar os usuários e alterna entre diferentes telas conforme o estado de login.
 
-First, run the development server:
+---
+
+## 🔹 Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tabler Icons](https://tabler-icons.io/)
+
+---
+
+## 🔹 Funcionalidades
+
+- **Login**: Validação de email e senha existentes no `localStorage`.
+- **Registro**: Criação de novos usuários, checando duplicidade de emails.
+- **Painel do Usuário**: Tela inicial após login com botões de Dashboard, Perfil, Configurações e Logout.
+- **LocalStorage**: Persistência dos dados dos usuários mesmo após atualizar a página.
+- **UX Responsiva**: Layout limpo com feedback visual e mensagens de alerta.
+
+---
+
+## 🔹 Estrutura do Projeto
+
+```
+/components
+  ├─ InicialPage.tsx    # Componente principal que gerencia os estados do sistema
+  ├─ Login.tsx          # Tela de login
+  ├─ Register.tsx       # Tela de registro
+  └─ Logged.tsx         # Tela do usuário logado (painel)
+
+/pages
+  └─ index.tsx          # Página inicial que carrega InicialPage
+```
+
+---
+
+## 🔹 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repo.git
+cd nome-do-repo
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Execute o projeto:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Acesse no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔹 Próximas Melhorias
 
-To learn more about Next.js, take a look at the following resources:
+- Implementar **hash de senha** para segurança.
+- Adicionar **validação de formulário mais avançada**.
+- Substituir `localStorage` por **API real / banco de dados**.
+- Melhorar o design e responsividade do painel do usuário.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔹 Screenshots
 
-## Deploy on Vercel
+![Login](./screenshots/login.png)  
+![Register](./screenshots/register.png)  
+![Logged](./screenshots/logged.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔹 Autor
+
+**Felipe de Lima Passarelli**  
+Desenvolvedor Front-End | Entusiasta de Next.js e boas práticas de React
+
+---
+
+## 🔹 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
