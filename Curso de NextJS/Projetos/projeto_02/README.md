@@ -67,6 +67,8 @@ npm run dev
 http://localhost:3000
 ```
 
+---
+
 ## 🔹 Autor
 
 **Felipe de Lima Passarelli**  
