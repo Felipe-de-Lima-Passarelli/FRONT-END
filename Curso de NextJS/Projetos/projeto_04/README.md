@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎧 Spotify UI Clone — Next.js
 
-## Getting Started
+Este projeto é um **clone da interface do Spotify**, desenvolvido com **Next.js**, com foco em **componentização, organização de layout e boas práticas de Front-End**.
 
-First, run the development server:
+O objetivo principal foi treinar a construção de interfaces complexas e escaláveis, simulando a estrutura de uma aplicação real.
+
+---
+
+## 🚀 Demonstração
+
+> Interface inspirada no Spotify Web, com header fixo, sidebar, grid dinâmico de categorias e footer promocional.
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Tabler Icons**
+
+---
+
+## ⚙️ Funcionalidades
+
+- 🎨 Clone visual da interface do Spotify
+- 🧩 Componentização clara e reutilizável
+- 📊 Renderização dinâmica de cards a partir de dados centralizados
+- 🖼️ Otimização de imagens com `next/image`
+- 🧱 Layout fixo com Header e Footer
+- 🛡️ Tipagem com TypeScript
+
+> ⚠️ Este projeto não possui funcionalidades de player ou integração com API do Spotify.
+
+---
+
+## 🏗️ Estrutura do projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/
+│   └── page.tsx          # Página principal
+├── Components/
+│   ├── Header.tsx
+│   ├── Main.tsx
+│   ├── Footer.tsx
+│   └── Cards.tsx
+├── data/
+│   └── logoData.ts       # Dados das categorias
+└── public/
+    └── img/              # Imagens das categorias
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Clone o repositório
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-## Learn More
+# Entre na pasta
 
-To learn more about Next.js, take a look at the following resources:
+cd seu-repositorio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Instale as dependências
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm install
 
-## Deploy on Vercel
+# Rode o projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acesse em:  
+👉 http://localhost:3000
+
+---
+
+## 💡 Principais aprendizados
+
+- Organização de layout em aplicações grandes
+- Importância da separação de responsabilidades
+- Renderização dinâmica com base em dados
+- Uso de TypeScript para evitar erros de props
+- Componentização pensando em reuso e manutenção
+
+---
+
+## 📌 Próximos passos
+
+- Melhorar responsividade (mobile-first)
+- Refinar acessibilidade
+- Criar estados de hover mais próximos do real
+- Integrar com API futuramente
+
+---
+
+## 👨‍💻 Autor
+
+**Felipe de Lima Passarelli**  
+Desenvolvedor Front-End focado em evolução contínua e boas práticas.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
